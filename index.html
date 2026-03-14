@@ -77,6 +77,19 @@ Donate Now
 
 </nav>
 
-</body>
+</body><h2>Total Donations Raised</h2>
+
+<h1 id="donationAmount">$0</h1>
+
+<button onclick="addDonation()">Simulate Donation</button>
+
+<script>
+let total = 0;
+
+function addDonation(){
+total = total + 50;
+document.getElementById("donationAmount").innerHTML = "$" + total;
+}
+</script>
 
 </html>
