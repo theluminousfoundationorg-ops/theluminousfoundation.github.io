@@ -9,7 +9,22 @@ style="background:#ffcc00;color:black;padding:15px 30px;text-decoration:none;fon
 Donate Now
 </a>
 
-</section>
+</section><h2>Total Donations Raised</h2>
+
+<h1 id="donation">$0</h1>
+
+<script>
+
+let donations = 0;
+
+function updateDonation(){
+donations += 25;
+document.getElementById("donation").innerHTML = "$" + donations;
+}
+
+setInterval(updateDonation, 5000);
+
+</script>
 <section style="background:#004080;color:white;text-align:center;padding:80px 20px;">
 
 <h1>The Luminous Foundation Inc</h1>
