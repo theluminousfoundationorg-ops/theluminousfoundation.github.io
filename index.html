@@ -1,144 +1,220 @@
-<section style="background:#003366;color:white;padding:80px;text-align:center;">
+<!DOCTYPE html>
+<html>
 
-<h1>The Luminous Foundation Inc</h1>
+<head>
 
-<p>Promoting Human Rights and Justice Worldwide</p>
+<title>The Luminous Foundation Inc.</title>
 
-<a href="donate.html"
-style="background:#ffcc00;color:black;padding:15px 30px;text-decoration:none;font-size:18px;border-radius:5px;">
-Donate Now
-</a>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-</section><h2>Total Donations Raised</h2>
+<style>
 
-<h1 id="donation">$0</h1>
-
-<script>
-
-let donations = 0;
-
-function updateDonation(){
-donations += 25;
-document.getElementById("donation").innerHTML = "$" + donations;
+body{
+font-family:Arial;
+margin:0;
+background:#f4f4f4;
 }
 
-setInterval(updateDonation, 5000);
+header{
+background:#002b5c;
+color:white;
+padding:20px;
+text-align:center;
+}
 
-</script>
-<section style="background:#004080;color:white;text-align:center;padding:80px 20px;">
+nav{
+background:#004080;
+text-align:center;
+padding:10px;
+}
 
-<h1>The Luminous Foundation Inc</h1>
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
 
-<p>Promoting Human Rights, Justice and Equality Worldwide</p>
+.hero{
+background:url("https://images.unsplash.com/photo-1593113630400-ea4288922497") center/cover;
+height:400px;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-align:center;
+}
 
-<a href="donate.html" 
-style="background:#28a745;color:white;padding:15px 30px;text-decoration:none;font-size:18px;border-radius:5px;">
-Donate Now
-</a>
+.hero h1{
+font-size:40px;
+}
 
-</section>
-<nav style="background:#222;padding:10px;text-align:center;">
-<a<a href="donors.html">Donors</a>
-  <a href="index.html" style="color:white;margin:10px;">Home</a>
-<a href="about.html" style="color:white;margin:10px;">About</a>
-<a href="campaigns.html" style="color:white;margin:10px;">Campaigns</a>
-<a href="gallery.html" style="color:white;margin:10px;">Gallery</a>
-<a href="documents.html" style="color:white;margin:10px;">Documents</a>
-<a href="donate.html" style="color:white;margin:10px;">Donate</a>
-<a href="contact.html" style="color:white;margin:10px;">Contact</a>
+.btn{
+background:#ffcc00;
+color:black;
+padding:15px 30px;
+text-decoration:none;
+border-radius:5px;
+font-size:18px;
+}
+
+.section{
+padding:50px;
+text-align:center;
+}
+
+.campaigns{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+.card{
+background:white;
+width:280px;
+border-radius:10px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img{
+width:100%;
+border-radius:10px 10px 0 0;
+}
+
+.card h3{
+padding:10px;
+}
+
+footer{
+background:#002b5c;
+color:white;
+text-align:center;
+padding:20px;
+margin-top:40px;
+}
+
+.counter{
+font-size:35px;
+color:#004080;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>The Luminous Foundation Inc.</h1>
+
+<p>Human Rights Campaign</p>
+
+</header>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="campaigns.html">Campaigns</a>
+
+<a href="gallery.html">Gallery</a>
+
+<a href="documents.html">Documents</a>
+
+<a href="donate.html">Donate</a>
+
+<a href="contact.html">Contact</a>
+
 </nav>
-<!DOCTYPE html>
-<html><h2>Our Impact</h2>
+
+<div class="hero">
+
+<h1>Together We Can Defend Human Rights</h1>
+
+<a class="btn" href="donate.html">Donate Now</a>
+
+</div>
+
+<div class="section">
+
+<h2>Our Impact</h2>
 
 <div style="display:flex;justify-content:center;gap:40px;flex-wrap:wrap;">
 
 <div>
-<h1>10+</h1>
-<p>Global Campaigns</p>
+<h1 class="counter">500+</h1>
+<p>People Helped</p>
 </div>
 
 <div>
-<h1>500+</h1>
-<p>People Reached</p>
+<h1 class="counter">20+</h1>
+<p>Campaigns</p>
 </div>
 
 <div>
-<h1>15+</h1>
+<h1 class="counter">15+</h1>
 <p>Volunteers</p>
 </div>
 
 </div>
 
-<head>
-<title>The Luminous Foundation</title>
-</head>
+</div>
 
-<body>
+<div class="section">
 
-<h1>The Luminous Foundation Inc</h1>
+<h2>Our Campaigns</h2>
 
-<p>Promoting Human Rights, Justice and Equality Worldwide</p>
+<div class="campaigns">
 
-<ul>
-<li>Promoting human rights worldwide</li>
-<li>Advocacy for justice and equality</li>
-<li>Supporting vulnerable communities</li>
-</ul>
+<div class="card">
 
-<h2 style="text-align:center;">Our Campaigns</h2>
+<img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac">
 
-<div style="display:flex;justify-content:center;gap:20px;flex-wrap:wrap;">
-
-<div style="border:1px solid #ccc;padding:20px;width:250px;text-align:center;">
 <h3>Human Rights Awareness</h3>
-<p>Raising awareness about human rights worldwide.</p>
-</div>
-
-<div style="border:1px solid #ccc;padding:20px;width:250px;text-align:center;">
-<h3>Justice for All</h3>
-<p>Advocating for justice and equality.</p>
-</div>
-
-<div style="border:1px solid #ccc;padding:20px;width:250px;text-align:center;">
-<h3>Community Support</h3>
-<p>Helping vulnerable communities globally.</p>
-</div>
 
 </div>
 
-<br><br>
+<div class="card">
 
-<nav>
+<img src="https://images.unsplash.com/photo-1509099836639-18ba1795216d">
 
-<a href="index.html">Home</a> |
+<h3>Support Vulnerable Communities</h3>
 
-<a href="about.html">About</a> |
+</div>
 
-<a href="campaigns.html">Campaigns</a> |
+<div class="card">
 
-<a href="gallery.html">Gallery</a> |
+<img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d">
 
-<a href="documents.html">Documents</a> |
+<h3>Global Advocacy</h3>
 
-<a href="contact.html">Contact</a>
+</div>
 
-</nav><a href="donors.html">Donors</a>
+</div>
 
-</body><h2>Total Donations Raised</h2>
+</div>
 
-<h1 id="donationAmount">$0</h1>
+<div class="section">
 
-<button onclick="addDonation()">Simulate Donation</button>
+<h2>Website Visitors</h2>
 
-<script>
-let total = 0;
+<img src="https://hitwebcounter.com/counter/counter.php?page=12345678&style=0006&nbdigits=5&type=page&initCount=0">
 
-function addDonation(){
-total = total + 50;
-document.getElementById("donationAmount").innerHTML = "$" + total;
-}
-</script>
+</div>
 
-</html><h2>Website Visitors</h2>
+<footer>
 
-<img src="https://hitwebcounter.com/counter/counter.php?page=12345678&style=0006&nbdigits=5&type=page&initCount=0" title="visitor counter">
+<p>© 2026 The Luminous Foundation Inc.</p>
+
+<p>Email: theluminousfoundationorg@gmail.com</p>
+
+</footer>
+
+</body>
+
+</html>
