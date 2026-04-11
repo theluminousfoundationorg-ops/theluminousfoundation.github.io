@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Donate - The Luminous Foundation</title>
+<style>
+body{
+    font-family:Arial;
+    text-align:center;
+    background:#f9f9f9;
+}
+.container{
+    max-width:800px;
+    margin:auto;
+    padding:20px;
+}
+.btn{
+    display:block;
+    margin:15px;
+    padding:15px;
+    text-decoration:none;
+    color:white;
+    border-radius:8px;
+    font-size:18px;
+}
+.paypal{background:#0070ba;}
+.stripe{background:#6772e5;}
+.bank{background:#28a745;}
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>💖 Support Our Mission</h1>
+<p>Your donation helps us promote human rights worldwide</p>
+
+<!-- PayPal -->
+<a class="btn paypal" href="https://www.paypal.com/donate" target="_blank">
+Donate via PayPal
+</a>
+
+<!-- Stripe -->
+<a class="btn stripe" href="https://buy.stripe.com/test" target="_blank">
+Pay with Card (Visa/MasterCard)
+</a>
+
+<!-- GoFundMe -->
+<a class="btn" style="background:#02a95c;" 
+href="https://gofundme.com/f/kfu8rh-support-human-rights-campaign-foundation-today" target="_blank">
+Donate via GoFundMe
+</a>
+
+<!-- Bank Transfer -->
+<div class="btn bank">
+<h3>Direct Bank Transfer</h3>
+<p>Bank Name: Your Bank</p>
+<p>Account Name: The Luminous Foundation</p>
+<p>Account Number: XXXXXXXX</p>
+<p>SWIFT Code: XXXXX</p>
+</div>
+
+</div>
+
+</body>
+</html>
